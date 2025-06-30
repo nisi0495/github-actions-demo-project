@@ -30,7 +30,6 @@ async function startServer() {
     const port = 3000
     server = app.listen(port, () => {
       console.log(`Stating Server`)
-      console.log(`Test`)
       console.log(`Service ready on :${port}`)
     });
   } catch (error) {
